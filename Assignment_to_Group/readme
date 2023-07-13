@@ -13,6 +13,6 @@ P. cinnamomi [using SNP set published in Shakya et al. (2021; Mol Ecol. 30: 5164
 
 usage : python2.7 Test_LinearSVMpredictor.py
 
-All_SNPs.xls => training SNP set reformated from 
+All_SNPs.xls => training SNP set reformated from https://github.com/grunwaldlab/GBS-Pcinnamomi/blob/master/vcf_cinna_202isolates_1010SNPs.gz
 
 Admixture.xlsx => five genetic group identified in Shakya et al. (2021) recomputed using the training set All_SNPs.xls
