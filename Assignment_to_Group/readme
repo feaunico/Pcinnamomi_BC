@@ -1,4 +1,13 @@
-Contains
+ASSIGN_Pcinna.py => report probability of assignement of unknown P. cinnamomi individual (sequenced with ON reads) 
+to each of the five genetic group defined in Shakya et al. (2021). Probabilities are estimated using a linearSVC model
+trained with SNPs of All_SNPs.xls. SNPs in the unknown P. cinnamomi individual are identified by mapping ON reads to the 
+P. cinnamomi reference genome Phyci1_AssemblyScaffolds.fasta.
+
+Requirement:  SAMTOOLS & BWA
+
+usage : python2.7 ASSIGN_Pcinna.py Phyci1_AssemblyScaffolds.fasta All_SNPs.xls barcode01 50000
 
 
-usage : python ASSIGN_Pcinna.py Phyci1_AssemblyScaffolds.fasta All_SNPs.xls barcode01 50000
+Test_LinearSVMpredictor.py =>
+
+usage : python2.7 Test_LinearSVMpredictor.py
