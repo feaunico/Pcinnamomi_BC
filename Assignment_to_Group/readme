@@ -1,1 +1,4 @@
+Contains
 
+
+usage : python ASSIGN_Pcinna.py Phyci1_AssemblyScaffolds.fasta All_SNPs.xls barcode01 50000
