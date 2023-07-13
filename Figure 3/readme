@@ -1,1 +1,3 @@
+Raw data and script for generating Figure 3 in Shamoun et al.
 
+Includes R script with Kruskall-Wallis test for comparing distributions of severity index at each time point between PR15, PP15-01 and controls
